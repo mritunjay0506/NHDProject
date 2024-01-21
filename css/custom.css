@@ -1,0 +1,139 @@
+/* ****** ****** ****** ****** ****** **
+ * ****** Common CSS ****** *
+** ****** ****** ****** ****** ****** */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+html {
+    position: relative;
+    min-height: 100%;
+} 
+a {
+    color: #004d21;
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+a,
+button,
+.btn {
+    outline: none;
+    outline: 0;
+    text-decoration: none;
+}
+.clear {
+    clear: both;
+} 
+::-webkit-scrollbar {
+    width: 6px;
+    /* for vertical scrollbars */
+    
+    height: 6px;
+    /* for horizontal scrollbars */
+}
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+}
+::-webkit-scrollbar-thumb {
+    background: #DB950E;
+}
+a.list-group-item,
+.list-group-item,
+button.list-group-item {
+    color: #242424;
+	background:#F9FBE7;
+} 
+body{
+	background:#2A2D51;
+    font-family: Arial, sans-serif;
+} 
+.pageWrapper {
+    width:1000px;
+    padding: 15px;
+    margin: 15px auto;
+    background-color: #D3D6DA;
+    border-radius: 8px;
+}  
+/* ****** ****** ****** ****** ****** **
+ * ****** Content Wrapper****** *
+** ****** ****** ****** ****** ****** */ 
+.contentWrapper {
+    width: 100%;
+    padding:10px;
+    float: left;
+    height: 100%;
+    overflow: auto;
+} 
+ 
+.bannerD {
+    width: 30%;
+    float: left;  
+} 
+.bannerD .bannerImgD {
+    width: 100%;
+    float: left;
+    background: #2245A5;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+} 
+.bannerD img{
+    width: 100%; 
+} 
+.contentD {
+    width: 68%; 
+    float: right;
+} 
+.contentD h1{
+    width: 100%; 
+    padding: 10px;
+    float: left;
+    color: #234BB0;  
+    border-radius: 6px;
+    border-left:5px solid #234BB0; 
+    background: #fff;
+    font-size: 22px;
+    margin-bottom: 15px;
+} 
+.contentD p{
+    width: 100%; 
+    padding: 10px;
+    float: left;
+    color: #000;  
+    border-radius: 6px;
+    border-left:5px solid #EDA718; 
+    background: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 15px;
+} 
+.prevButton,
+.nextButton{
+    width: 120px; 
+    padding: 10px;
+    float: right;
+    color: #fff;  
+    border-radius: 6px;  
+    font-size: 16px;
+    margin-left: 15px;
+    border: 0px;
+    cursor: pointer;
+}
+.nextButton{ 
+    background: #234BB0;
+    box-shadow: 0px 3px 0px #4392DF;
+    margin-left: 15px;
+}
+.prevButton{ 
+    background: #DB950E;
+    box-shadow: 0px 3px 0px #FECB47;
+    margin-left: 15px; 
+}
+ 
